@@ -56,8 +56,5 @@ Repository = "https://github.com/Prasanna-27eng/prompt-fuzz"
 [tool.hatch.build.targets.wheel]
 packages = ["src/promptfuzz"]
 
-[tool.hatch.build.targets.wheel.force-include]
-"src/promptfuzz/data" = "promptfuzz/data"
-
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
