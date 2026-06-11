@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "prompt-fuzz"
+name = "prompt-fuzz-cli"
 version = "0.1.0"
 description = "Async LLM jailbreak / prompt-injection fuzzer for OpenAI-compatible chat completion endpoints."
 readme = "README.md"

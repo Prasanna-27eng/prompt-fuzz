@@ -41,11 +41,11 @@ It's built around three independent bypass signals:
 ## Quick start
 
 ```bash
-pip install prompt-fuzz
+pip install prompt-fuzz-cli
 
 # Run the bundled mock target (a deliberately weak chatbot, for trying
 # prompt-fuzz out without hitting a real LLM API):
-pip install "prompt-fuzz[dev]"
+pip install "prompt-fuzz-cli[dev]"
 uvicorn mock_target.app:app --port 8000 &
 
 prompt-fuzz scan --target http://localhost:8000/v1/chat/completions
@@ -173,7 +173,7 @@ etc.) and refuses everything else — never use its logic as a reference for
 real guardrails.
 
 ```bash
-pip install "prompt-fuzz[dev]"
+pip install "prompt-fuzz-cli[dev]"
 uvicorn mock_target.app:app --port 8000
 ```
 
