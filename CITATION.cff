@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "prompt-fuzz: An async jailbreak/prompt-injection fuzzer for OpenAI-compatible chat endpoints"
+abstract: >
+  An asynchronous CLI tool that fuzzes OpenAI-compatible chat completion
+  endpoints with a curated library of jailbreak and prompt-injection
+  payloads, detecting guardrail bypasses via canary-token leakage,
+  compliance-marker matching, and refusal-absence heuristics. Includes a
+  deliberately weak mock LLM server for reproducible testing.
+authors:
+  - family-names: "Surendran"
+    given-names: "Prasanna Kumar"
+repository-code: "https://github.com/Prasanna-27eng/prompt-fuzz"
+url: "https://github.com/Prasanna-27eng/prompt-fuzz"
+license: MIT
+version: 0.1.0
+date-released: "2026-06-11"
+keywords:
+  - "LLM security"
+  - "prompt injection"
+  - "jailbreak"
+  - "AI red team"
+  - "guardrails"
+  - "purple team"
